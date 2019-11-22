@@ -28,7 +28,7 @@ public class ArtifatNameApplication {
 	static public Logger LOGGER;
 	static
 	{
-		try(FileInputStream ins = new FileInputStream("D:\\JAVA_PROJECTS\\IdeaProjects\\WebProject\\ArtifatName\\ArtifatName\\src\\main\\java\\com\\example\\ArtifatName\\log.config"))
+		try(FileInputStream ins = new FileInputStream("src\\main\\java\\com\\example\\ArtifatName\\log.config"))
 		{
 			LogManager.getLogManager().readConfiguration(ins);
 			LOGGER = Logger.getLogger(ArtifatNameApplication.class.getName());
@@ -41,7 +41,7 @@ public class ArtifatNameApplication {
 	public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException
 	{
 		SpringApplication.run(ArtifatNameApplication.class, args);
-		file = new File("D:\\JAVA_PROJECTS\\IdeaProjects\\WebProject\\ArtifatName\\ArtifatName\\src\\main\\java\\com\\example\\ArtifatName\\file.xml");
+		file = new File("src\\main\\java\\com\\example\\ArtifatName\\file.xml");
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
 		LOGGER.log(Level.INFO,"Parsing xml-file");
@@ -76,10 +76,6 @@ public class ArtifatNameApplication {
 							case "Birthday":
 							{
 								user.setBirthday(childElement.getTextContent());
-							}
-							default :
-							{
-								LOGGER.log(Level.WARNING,"invalid xml");
 							}
 						}
 					}

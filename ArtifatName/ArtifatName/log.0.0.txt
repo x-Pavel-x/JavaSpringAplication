@@ -98,3 +98,51 @@ INFO: Save results to xml file
 INFO: Get 1 user
 нояб. 21, 2019 8:17:43 PM com.example.ArtifatName.controller.MessageController show
 INFO: Get all users
+нояб. 22, 2019 7:03:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+нояб. 22, 2019 7:03:17 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+нояб. 22, 2019 7:03:17 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.27]
+нояб. 22, 2019 7:03:17 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+нояб. 22, 2019 7:03:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Parsing xml-file
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+WARNING: invalid xml
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Add User to collection
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+WARNING: invalid xml
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Add User to collection
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+WARNING: invalid xml
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Add User to collection
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+WARNING: invalid xml
+нояб. 22, 2019 7:03:17 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Add User to collection
+нояб. 22, 2019 7:03:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+нояб. 22, 2019 7:03:48 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+нояб. 22, 2019 7:03:48 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.27]
+нояб. 22, 2019 7:03:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring embedded WebApplicationContext
+нояб. 22, 2019 7:03:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+нояб. 22, 2019 7:03:48 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Parsing xml-file
+нояб. 22, 2019 7:03:48 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Add User to collection
+нояб. 22, 2019 7:03:48 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Add User to collection
+нояб. 22, 2019 7:03:48 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Add User to collection
+нояб. 22, 2019 7:03:48 PM com.example.ArtifatName.ArtifatNameApplication main
+INFO: Add User to collection
